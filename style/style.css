@@ -1,0 +1,46 @@
+
+@import url(section1.css);
+@import url(section2.css);
+@import url(section3.css);
+@import url(section4.css);
+@import url(darktheme.css);
+
+:root{
+    --clr-dark: #19142A;
+    --clr-border: #504672;
+    --clr-primary: #fff;
+    --foreground: var(--clr-primary);
+    --background: var(--clr-dark);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: var(--foreground);
+    background-color: var(--background);
+    padding: 11vh 10vh 0 10vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#container1{
+    border: #504672 5px solid;
+    min-width: 700px;
+}
+.section{
+    height: 100vh;
+    /* border: 1px solid green; */
+    border-bottom: #504672 5px solid;
+}
+.section5{
+    height: 100vh;
+}
+.section4{
+    height: 100%;
+}
+    
+#section1{
+    padding: 0vh 10vh 0 12vh;
+}

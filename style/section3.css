@@ -1,0 +1,72 @@
+.container-fluid{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
+.aboutMe{
+    text-align: center;
+    color: var(--foreground);
+    
+}
+.row{
+    display: flex;
+}
+.section4 .container-fluid .row{
+
+    justify-content: center;
+    align-content: center;
+}
+.section4 .container-fluid .row .col p{
+    font-size: 30px;
+    font-weight: 600;
+}
+.section4 .container-fluid .row .cols{
+ border-right: solid 4px #2EE59D;
+    
+}
+.colImage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+       
+}
+.section4 .container-fluid .row .col img{
+    height: 100px;
+    width: 100px;
+    margin: 1%;
+    padding: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.section4 .container-fluid .row .col img:hover{
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+input,
+textarea{
+    color: black;
+    font-weight: 400;
+}
+.mySocial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mySocial a{
+    color: var(--foreground);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20%;
+    transition: all 0.3s ease 0s;
+}
+.mySocial a:hover{
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
